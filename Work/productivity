@@ -1,0 +1,13 @@
+import pyautogui
+import pyperclip
+import time
+
+pyautogui.PAUSE = 1
+
+# Para colocar uma música no youtube
+pyautogui.press("win")
+pyautogui.write("chrome")
+pyautogui.press("enter")
+pyperclip.copy("https://www.youtube.com/watch?v=anypqg9428Y")
+pyautogui.hotkey("ctrl", "v")
+pyautogui.hotkey("enter")
